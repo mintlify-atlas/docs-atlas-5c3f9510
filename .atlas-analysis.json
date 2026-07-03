@@ -1,0 +1,56 @@
+{
+  "projectType": "saas",
+  "projectName": "HuellAR",
+  "projectDescription": "HuellAR is a mobile app (iOS & Android) that lets pet owners place life-size augmented reality versions of their pets anywhere using their phone camera.",
+  "theme": "almond",
+  "primaryColor": "#2F5DF5",
+  "lightColor": "#E4ECFF",
+  "darkColor": "#1E3FB5",
+  "navigation": {
+    "groups": [
+      {
+        "group": "Overview",
+        "pages": [
+          "introduction",
+          "how-it-works",
+          "features"
+        ]
+      },
+      {
+        "group": "Getting Started",
+        "pages": [
+          "getting-started/download",
+          "getting-started/first-ar-session",
+          "getting-started/pet-collection"
+        ]
+      },
+      {
+        "group": "Using HuellAR",
+        "pages": [
+          "using-huellar/ar-camera",
+          "using-huellar/capturing-moments",
+          "using-huellar/memory-gallery"
+        ]
+      },
+      {
+        "group": "Support",
+        "pages": [
+          "support/faq",
+          "support/contact"
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Life-size AR pet placement using the phone camera",
+    "Augmented reality photos and videos of pets",
+    "Personal memory gallery to store captured moments",
+    "Available on iOS and Android",
+    "Simple 3-step flow: open app, choose pet, enjoy & capture",
+    "Early-access waitlist sign-up"
+  ],
+  "publicApiSurface": [
+    "Email sign-up form (waitlist registration)",
+    "Contact email: hola@huellar.app"
+  ]
+}
